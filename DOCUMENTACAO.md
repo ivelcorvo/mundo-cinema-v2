@@ -2,16 +2,16 @@
 
 ## Stack
 
-| Categoria        | Tecnologia              | Versão  |
-|------------------|-------------------------|---------|
-| Bundler          | Vite                    | 8       |
-| Framework        | React                   | 19      |
-| Linguagem        | TypeScript              | 6       |
-| Estilo           | Tailwind CSS            | 4       |
-| Roteamento       | React Router            | 7       |
-| HTTP             | Axios                   | -       |
-| Auth + Hosting   | Firebase                | -       |
-| Estado global    | Context API             | -       |
+| Categoria      | Tecnologia   | Versão  |
+|----------------|--------------|---------|
+| Bundler        | Vite         | 8       |
+| Framework      | React        | 19      |
+| Linguagem      | TypeScript   | 6       |
+| Estilo         | Tailwind CSS | 4.3     |
+| Roteamento     | React Router | 7.16    |
+| HTTP           | Axios        | 1.16    |
+| Auth + Hosting | Firebase     | 12.14   |
+| Estado global  | Context API  | -       |
 
 ## Estrutura de Pastas
 
@@ -38,3 +38,4 @@ Escolhido para gerenciamento de estado global por ser nativo do React, sem depen
 
 - [x] Etapa 1 — Scaffold Vite + React + TypeScript
 - [x] Etapa 2 — Tailwind CSS v4 configurado
+- [x] Etapa 3 — Dependências instaladas (React Router, Axios, Firebase)
