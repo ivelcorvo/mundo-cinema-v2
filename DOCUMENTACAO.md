@@ -15,7 +15,25 @@
 
 ## Estrutura de Pastas
 
-> Será atualizada conforme o projeto evoluir.
+## Estrutura de Pastas
+
+```
+src/
+├── assets/           # Imagens, ícones e fontes
+├── components/
+│   ├── ui/           # Componentes genéricos reutilizáveis (Button, Input, Modal...)
+│   └── layout/       # Componentes estruturais (Navbar, Footer, PageWrapper...)
+├── contexts/         # Contexts da Context API (AuthContext, FavoritesContext...)
+├── features/
+│   ├── auth/         # Componentes de autenticação (LoginForm, RegisterForm...)
+│   ├── movies/       # Componentes de filmes (MovieCard, MovieGrid, MovieDetail...)
+│   └── favorites/    # Componentes de favoritos (FavoriteButton, FavoritesList...)
+├── hooks/            # Hooks customizados (useAuth, useMovies, useFavorites...)
+├── pages/            # Páginas da aplicação (Home, MovieDetail, Login, Register...)
+├── services/         # Chamadas de API (tmdb.service.ts, firebase.service.ts)
+├── types/            # Interfaces e types TypeScript
+└── utils/            # Funções utilitárias puras
+```
 
 ## Decisões Técnicas
 
@@ -39,3 +57,4 @@ Escolhido para gerenciamento de estado global por ser nativo do React, sem depen
 - [x] Etapa 1 — Scaffold Vite + React + TypeScript
 - [x] Etapa 2 — Tailwind CSS v4 configurado
 - [x] Etapa 3 — Dependências instaladas (React Router, Axios, Firebase)
+- [x] Etapa 4 — Estrutura de pastas criada
