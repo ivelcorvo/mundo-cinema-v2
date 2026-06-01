@@ -59,3 +59,4 @@ Escolhido para gerenciamento de estado global por ser nativo do React, sem depen
 - [x] Etapa 3 — Dependências instaladas (React Router, Axios, Firebase)
 - [x] Etapa 4 — Estrutura de pastas criada
 - [x] Etapa 5 — Firebase configurado (Authentication ativado + variáveis de ambiente)
+- [x] Etapa 6 — AuthContext criado (login, register, logout, observador de estado)
