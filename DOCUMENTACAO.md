@@ -58,3 +58,4 @@ Escolhido para gerenciamento de estado global por ser nativo do React, sem depen
 - [x] Etapa 2 — Tailwind CSS v4 configurado
 - [x] Etapa 3 — Dependências instaladas (React Router, Axios, Firebase)
 - [x] Etapa 4 — Estrutura de pastas criada
+- [x] Etapa 5 — Firebase configurado (Authentication ativado + variáveis de ambiente)
