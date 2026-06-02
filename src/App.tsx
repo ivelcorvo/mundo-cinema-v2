@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router'
 import { ProtectedRoute } from './components/layout/ProtectedRoute'
+import { RootLayout } from './components/layout/RootLayout'
 
 export default function App() {
   return (
@@ -12,22 +13,30 @@ export default function App() {
         {/* Rotas protegidas */}
         <Route path="/" element={
           <ProtectedRoute>
-            <div>Home</div>
+            <RootLayout>
+              <div>Home</div>
+            </RootLayout>
           </ProtectedRoute>
         } />
         <Route path="/movie/:id" element={
           <ProtectedRoute>
-            <div>Movie Detail</div>
+            <RootLayout>
+              <div>Movie Detail</div>
+            </RootLayout>
           </ProtectedRoute>
         } />
         <Route path="/favorites" element={
           <ProtectedRoute>
-            <div>Favorites</div>
+            <RootLayout>
+              <div>Favorites</div>
+            </RootLayout>
           </ProtectedRoute>
         } />
         <Route path="/profile" element={
           <ProtectedRoute>
-            <div>Profile</div>
+            <RootLayout>
+              <div>Profile</div>
+            </RootLayout>
           </ProtectedRoute>
         } />
 
