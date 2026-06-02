@@ -61,3 +61,24 @@ Escolhido para gerenciamento de estado global por ser nativo do React, sem depen
 - [x] Etapa 5 — Firebase configurado (Authentication ativado + variáveis de ambiente)
 - [x] Etapa 6 — AuthContext criado (login, register, logout, observador de estado)
 - [x] Etapa 7 — Rotas configuradas e ProtectedRoute criado
+- [x] Etapa 8 — Sistema de design definido (cores, tipografia, tema dark)
+- [x] Etapa 9 — Componentes UI base criados (Button, Input, Spinner, Badge, Card)
+
+## Componentes UI
+
+Localizados em `src/components/ui`. Todos exportados via `src/components/ui/index.ts`.
+
+### Button
+Botão reutilizável com variantes (`primary`, `secondary`, `ghost`, `danger`), tamanhos (`sm`, `md`, `lg`), estado de loading e suporte a ícones Font Awesome.
+
+### Input
+Campo de texto com suporte a label, ícone, mensagem de erro e hint. O estado de erro altera a borda automaticamente.
+
+### Spinner
+Indicador de carregamento com tamanhos (`sm`, `md`, `lg`). Usa a cor de destaque do tema.
+
+### Badge
+Etiqueta para categorias e status com variantes (`default`, `brand`, `success`, `warning`, `error`) e tamanhos (`sm`, `md`).
+
+### Card
+Container genérico com variantes (`default`, `elevated`), padding configurável e suporte a clique.
